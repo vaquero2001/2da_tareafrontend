@@ -3,28 +3,28 @@ import imgUser from '../assets/images/image-avatar.webp'
 
 export const Card = () => {
   return (
-    <article className="bg-slate-50 mx-3 py-5 pl-3 w-[193px]">
-        <div className='flex center mb-5 w-[170px]'>
+    <article className="bg-slate-50 mx-3 p-5  rounded-xl border-solid border border-black  w-[330px] ">
+        <div className='flex center mb-7 '>
             <picture className=''>
-                <img src={imgCard} alt="imgCard" />
+                <img className='w-full rounded-xl ' src={imgCard} alt="imgCard" />
             </picture>
         </div>
         
-        <div className="flex-center">
-            <h3>
+        <div className="flex-center mb-4">
+            <span className='font-bold text-[12px] bg-amber-300 w-[px] p-3 py-2 rounded'>
                 Learning
-            </h3>
-            <h2>
+            </span>
+            <h2 className='text-[13px] text-slate-800 py-3 font-bold'>
                 Published 21 Dec 2023
             </h2>
-            <h1>
+            <h1 className='font-bold text-[21px] cursor-pointer hover:text-yellow-400 mb-3'>
                 HTML & CSS foundations
             </h1>
-            <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+            <p className='text-[15px] text-gray-500'>These languages are the backbone of every website, defining structure, content, and presentation.</p>
         </div>
-        <picture>
-            <img src={imgUser} alt="imgUser" />
-            <h1 className='font-bold'>Greg Hooper</h1>
+        <picture className='flex items-center '>
+            <img className='w-[32px]' src={imgUser} alt="imgUser" />
+            <h1 className='ml-4 font-bold text-[14px]'>Greg Hooper</h1>
         </picture>
     </article>
     

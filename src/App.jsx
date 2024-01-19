@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <body className='font-body bg-amber-400 flex place-items-center h-screen'>
+    <body className='font-body bg-amber-300 flex justify-center place-items-center h-screen'>
       <Card/>
     </body>
     </>
