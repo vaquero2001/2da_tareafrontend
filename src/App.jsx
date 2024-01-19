@@ -1,7 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import { Card } from './components/card'
+import { CardProfile } from './components/CardProfile'
 
 
 function App() {
@@ -10,7 +8,7 @@ function App() {
   return (
     <>
     <body className='font-body bg-amber-300 flex justify-center place-items-center h-screen'>
-      <Card/>
+      <CardProfile/>
     </body>
     </>
   )

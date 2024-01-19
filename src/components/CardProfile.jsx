@@ -1,7 +1,7 @@
 import imgCard from '../assets/images/illustration-article.svg'
 import imgUser from '../assets/images/image-avatar.webp' 
 
-export const Card = () => {
+export const CardProfile = () => {
   return (
     <article className="bg-slate-50 mx-3 p-5  rounded-xl border-solid border border-black  w-[330px] shadow-[7px_7px_0_0] hover:shadow-[14px_14px_0_0] transition duration-150 ease-in-out ">
         <div className='flex center mb-7 '>
@@ -30,3 +30,4 @@ export const Card = () => {
     
   )
 }
+
